@@ -59,7 +59,7 @@ class StudentController extends Controller
     public function edit()
     {
         //$aStudent = Student::find($id);
-        return view('student_form');
+        return view('edit_student_page');
     }
 
     /**
